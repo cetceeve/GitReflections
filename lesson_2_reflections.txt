@@ -12,3 +12,8 @@ the staging area sits between the working directory and the git repository
 it allows me to decide which files while be saved with the next commit
 its basically a way to costumize the commit.
 i can add and remove files from the staging area using git add and git reset.
+
+>>>How can you use the staging area to make sure you have one commit per logical change?<<<
+by being able to use git diff and git diff --staged to compare between
+working directory and the last commit, making it easier to see if a logical chage happend
+i can also overfiew all the files a made changes to and maybe decide to split them up into two commits.
