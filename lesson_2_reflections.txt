@@ -34,3 +34,9 @@ you can checkout several paths using git log --graph --oneline [branch_1] [branc
 >>>How do the diagrams help you visualize the branch structure?<<<
 the diagrams point out where the branches started to split and how many ids
 since that point have been created.
+
+>>>What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?<<<
+merging will ably all added lines to one document, and delete all substracted lines
+it will continue on the currently checked out branch
+cause it makes scense, i guess. its a tree like logical structure, so...
