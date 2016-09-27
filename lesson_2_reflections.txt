@@ -1,0 +1,14 @@
+Reflections for lesson 2
+
+>>>What happens when you initialize a repository? Why do you need to do it?<<<
+a directory called .git is created in the current directory. 
+it will store the meta-data of all files inside the directory for git to use.
+it is necessary to use git on the directory.
+with git status i can overfiew what git is currently doing or expecting me to do.
+
+>>>How is the staging area different from the working directory and the repository? 
+What value do you think it offers?<<<
+the staging area sits between the working directory and the git repository
+it allows me to decide which files while be saved with the next commit
+its basically a way to costumize the commit.
+i can add and remove files from the staging area using git add and git reset.

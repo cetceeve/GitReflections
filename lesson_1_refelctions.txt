@@ -1,0 +1,29 @@
+i used the fc command which stands for file compare to compare files
+this worked well, but it was very connfusing to read
+in fact, so confusing, that i was not able to find the typo in the file.
+
+Having easy access to the entire history of a file would make it simple to track mistakes
+and if necessary correct them
+it is also possible to get access to the foreign version of a file if the current one is corrupted.
+
+Saving Manually allows for logical saves. This makes total scense when we talk about code
+it git a save is called "commit" it is very useful to add a short note
+to the commit describing what excatly you have changed, so one can quickly search 
+threw the commit history and indentify the changes.
+
+with git i am able to save multiple files at the same time.
+this is possible bescause the 'commit' actually saves a hole "repository" - not just one file
+thinking about coding, this makes total scense.
+
+with "git log" i can view all the changes made to a file in my directory
+with "git diff" i can compare to files using their id from git log
+it makes scense to compare one it below to the id above.
+
+version_control makes it possible to make riskier changes to the code because it is
+easy to return to a previous working version and you can even look up the specific lines
+that changed and caused the bug in newer versions.
+
+i want to use git to find a way to easly share code between my different workplaces 
+i also underestimated the possibilties of a version control system
+maybe git could also be used for sharing cad files from the university server to my 
+home station, but at this stage i do not now enouph about the possibilties git provides.
