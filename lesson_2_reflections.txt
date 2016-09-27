@@ -17,3 +17,14 @@ i can add and remove files from the staging area using git add and git reset.
 by being able to use git diff and git diff --staged to compare between
 working directory and the last commit, making it easier to see if a logical chage happend
 i can also overfiew all the files a made changes to and maybe decide to split them up into two commits.
+
+>>>What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?<<<
+branches actually make it possible to stack several commits together on the same project
+they create a sperate path, allowing to put stacks/branches in parallel to each other
+branche are very useful when adding a lot of content that needs saves while creating it
+so u are save to work on it while creating it like normal, but when the changes do not work out
+there is still a working version one can imidiatly work on again.
+also its possible to work on both branches in parallel making it possible to compare to
+versions to each other while holding full flexibility.
+looking for a more effective architecture or code for example.
