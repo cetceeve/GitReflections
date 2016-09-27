@@ -28,5 +28,5 @@ there is still a working version one can imidiatly work on again.
 also its possible to work on both branches in parallel making it possible to compare to
 versions to each other while holding full flexibility.
 looking for a more effective architecture or code for example.
-!!! interestingly git.log does not desplay the branch the safe was taken on
-this is quite disappointing to be honest, because the log is hard to read rather quickly.
+notice: git.log will always show the ids on the current branch but 
+you can checkout several paths using git log --graph --oneline [branch_1] [branch_2].
