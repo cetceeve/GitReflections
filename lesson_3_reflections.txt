@@ -37,4 +37,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    seperate branches make scense for adding a feature that requires a bunch of code
+	you do not want to destroy the master code while working on that feature especially when 
+	collaborating with other creators. making the changes directly to master is good 
+	for a quck local version-control system but not good for sharing or larger projects
+	basically branches make git powerful enouph to handle big projects.
+	pull request are a way to directly share code to collaborators and make them approve it
+	before changing the current state of the project.
