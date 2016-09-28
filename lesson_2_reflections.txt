@@ -40,3 +40,8 @@ Why do we represent it in the diagram the way we do?<<<
 merging will ably all added lines to one document, and delete all substracted lines
 it will continue on the currently checked out branch
 cause it makes scense, i guess. its a tree like logical structure, so...
+
+>>>What are the pros and cons of Git’s automatic merging vs. always doing merges manually?<<<
+gits automatic merging is super fast and covers most of the code normally
+but it will often give an error message and ask you to help out.
+maybe there are situations, when doing it manually in the first place makes scense.
