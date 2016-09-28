@@ -21,12 +21,18 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    i can decide when to merge and when to push
+	fast-forward merging can be applied 
+	git can identivy merge conflicts
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    i would use it to work on one project from different computers
+	i have no idea how to actually apply it to really coding because the files are
+	split up on different directorys and probably dont want the .git there, too
+	collaborating with others seems to be super easy, but i think it gets quite 
+	chaotic quickly with all the commits and maybe comments on github.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
